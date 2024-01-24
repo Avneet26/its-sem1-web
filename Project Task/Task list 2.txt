@@ -1,0 +1,10 @@
+Project Topic - Banking Website
+
+
+Brief Description - This is a responsive Banking website which provides information about all the services provided by the bank. Users can sign-in and view Bank balance, view statements, funds transfer, create FD, do investments, get credit cards and can opt for more services. Users can also submit any inquiries about the services they have opted for or any general inquiry. 
+
+List of Features - 
+	1. Homepage- Header section (logo, search bar)
+	2. Homepage- Footer section (copyrights, social media links)
+	3. Homepage- center section (images, navigation items)
+	4. Contact-us page (form submission)
