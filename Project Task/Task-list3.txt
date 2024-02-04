@@ -1,0 +1,82 @@
+#Project Scope:
+
+Description: This is a responsive and accessible banking website which provides information about all the services provided by the bank. Users can sign-in and view Bank balance, view statements, funds transfer, create FD, do investments, get credit cards and can opt for more services. Users can also submit any inquiries about the services they have opted for or any general inquiry. Opt Financial guide to students and newcomers to the country. 
+
+
+Targeted Audience: Adults, Senior citizens, Minors, Corporate Account Holders, Privilege customers
+
+
+Objective: Banking website which is easily accessible and responsive by all categories of customers. This will help customers to be in touch with their account management without visiting Bank branches for every small task. 
+
+
+Technical Considerations: HTML5, CSS3, Javascript, Bootstrap, jQuery, GitHub, JSON
+
+
+# Deliverables: Responsive Banking website having following services- Credit card, Debit Card, User Account, Funds Transfer(NEFT, RTGS, etc.), Investment Portfolio, Savings Accounts, Tax Savings Account, Commercial Papers, Cheques, Demand Draft, Contact Support, FAQs, Fixed Deposit, ATM Finder
+
+
+# Responsibilities and roles: (Subject to change)
+
+Avneet: 
+
+* Project setup
+
+* HTML & CSS
+
+* Form Validations
+
+* Login page
+
+Uttkarsh: 
+
+* HTML & CSS
+
+* Manual QA Testing 
+
+* Forms
+
+* FAQs contribution
+
+Sharnveer:
+
+* HTML & CSS
+
+* Manual QA Testing
+
+* About us 
+
+* FAQs contribution
+
+Yamini: 
+
+* HTML & CSS
+
+* Dummy Data using JSON
+
+* Forms
+
+* Login page
+
+
+# Timeline: (Subject to change)
+
+(By week-7) Basic Structure of the website
+
+    Homepage- Header section [Yamini]
+    Homepage- Footer section [Uttkarsh]
+    Homepage- center section [Avneet]
+    Contact-us page [Sharnveer]
+    FAQs 
+
+
+(By week-10) 
+
+    User page ( dummy design)
+    Form Validation
+    Events
+
+
+(By week-13)
+
+    Website to be responsive and accessible.
+    Optimising website
