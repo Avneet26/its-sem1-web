@@ -1,0 +1,29 @@
+.main-page-section.props-page {
+	margin-top: 30px;
+}
+.props-page h5 {
+	font-size: 24px;
+}
+.special-prodcut-list {
+	padding-left: 0;
+}
+.special-prodcut-list li {
+	list-style: none;
+	margin-bottom: 20px;
+}
+.special-prodcut-list li p{
+    margin: 3px 0;
+    font-size: 16px;
+}
+.special-list-item a {
+	font-weight: bold;
+	color: orange;
+	font-size: 18px;
+	text-decoration: none;
+}
+.special-list-item a:hover {
+	color: green;
+}
+.special-list-item span {
+	font-weight: bold;
+}
