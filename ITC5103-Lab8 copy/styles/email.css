@@ -1,0 +1,18 @@
+.form-field-group label {
+    width: 89px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+}
+.form-field-group {
+    margin: 15px 0px;
+}
+.form-submit-button {
+	margin-left: 104px;
+	margin-top: 10px;
+	background-color: orange;
+	border: 2px solid;
+	padding: 5px 13px;
+	outline: none;
+	cursor: pointer;
+}

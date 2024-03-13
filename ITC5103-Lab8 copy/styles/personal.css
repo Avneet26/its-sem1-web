@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.header-text h1{
+    font-family: 'Creepster';
+}
+
+.personal-page h4 + p {
+	font-size: 11px !important;
+}
+
+.personal-page .personal-heading {
+	margin-top: 32px;
+}
+
+video {
+	margin-top: 25px;
+}
+
+.sidenav li a {
+	padding: 9px 5px 8px 5px;
+}
+
+.main-page-section.personal-page > p {
+	font-size: 14px;
+	line-height: 1.3;
+}

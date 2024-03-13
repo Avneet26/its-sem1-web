@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Halloween Store</title>
+    <link rel="icon" type="image/x-icon" href="./images/pumpkin.gif">
+	<link rel="stylesheet" type="text/css" href="./styles/normalize.css">
+	<link rel="stylesheet" href="./styles/main.css">
+	<link rel="stylesheet" href="./styles/email.css">
+</head>
+<body>
+	<header>
+		<img src="./images/pumpkin.gif" alt="pumpkin-icon">
+		<div class="header-text">
+			<h1>The Halloween Store</h1>
+			<h3>For the little Goblin in all of us!</h3>
+		</div>
+	</header>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="product.html">Product List</a>
+		<a href="personal/index.html">Personal</a>
+		<a href="#">Decorating Items</a>
+		<a href="email.html" class="active">Join Email</a>
+	</nav>
+	<main>
+		<aside class="sidenav">
+			<ul class="hyperlinks-list">
+				<li><a href="./props.html">Props</a></li>
+				<li><a href="./costumes.html">Costumes</a></li>
+				<li><a href="./special.html">Special FX</a></li>
+				<li><a href="./masks.html">Masks</a></li>
+			</ul>
+		</aside>
+		<section class="main-page-section">
+			<h3 class="form-header">Please enter the following information:</h3>
+            <form action="subscribe.html" >
+                <div class="form-field-group">
+                    <label for="fName">First Name: </label>
+                    <input type="text" name="fName" id="fName" autofocus required value="">
+                </div>
+                <div class="form-field-group">
+                    <label for="lName">Last Name: </label>
+                    <input type="text" name="lName" id="lName" required value="">
+                </div>
+                <div class="form-field-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" required value="">
+                </div>
+                <div class="form-field-group">
+                    <label for="zipcode">Zip Code: </label>
+                    <input type="text" name="zipcode" id="zipcode" pattern="[0-9]{5}" value="" placeholder="Optional but appreciated: 99999">
+                </div>
+                <div class="form-field-group">
+                    <input class="form-submit-button" type="submit" value="Subscribe">
+                </div>
+            </form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2018 Ben Murach</p>
+	</footer>
+</body>
+</html>
