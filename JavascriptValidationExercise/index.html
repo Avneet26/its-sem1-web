@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Book</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <h1>Grade Book</h1>
+
+        <form action="#" name="grade-form">
+            <div>
+                <label for="FName">First Name: </label>
+                <input type="text" name="fname" id="FName">
+            </div>
+            <div>
+                <label for="LName">Last Name: </label>
+                <input type="text" name="lname" id="LName">
+            </div>
+            <div>
+                <label for="Mark1">Mark 1: </label>
+                <input type="number" name="mark1" id="Mark1">
+            </div>
+            <div>
+                <label for="Mark2">Mark 2: </label>
+                <input type="number" name="mark2" id="Mark2">
+            </div>
+            <div>
+                <label for="Mark3">Mark 3: </label>
+                <input type="number" name="mark3" id="Mark3">
+            </div>
+            <div>
+                <div>
+                    <button type="button" onclick="validateTxt()">Validate Form</button>
+                    <span id="validate-error"></span>
+                </div>
+                <div>
+                    <button type="button" onclick="printResult()">Print Result</button>
+                    <p id="result"></p>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

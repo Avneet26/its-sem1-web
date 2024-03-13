@@ -1,0 +1,163 @@
+/*ASSIGNMENT 2 - CREATE WEBPAGE FROM MOCKUP*/
+
+/*CLIENT COLOURS & FONTS
+Background: #e6e6e6;
+Header and Footer Black: #1b1b1b
+Navigation bar/sidebar/Overview box: white
+Accent blue: #5e9cae
+
+FONT-FAMILY is Helvetica, Arial, sans-serif;
+
+Width for main container should be 1000px.
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+    background-color: #e6e6e6;
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+
+.header-top-background {
+    background-color: #1b1b1b;
+}
+
+.header-top-bar {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.nav-links {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 25px;
+    color: #1b1b1b;
+}
+
+.nav-links.active {
+    background-color: #5e9cae;
+    color: white;
+}
+
+.nav-links:hover {
+    background-color: #5e9cae;
+    color: white;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.upper-flex-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.upper-flex-section img {
+    width: 600px;
+}
+
+.news-sidebar-container {
+    width: 300px;
+    background-color: white;
+    height: auto;
+}
+
+.news-sidebar-container h3 {
+    background-color: #5e9cae;
+    color: white;
+    padding: 10px 20px;
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+.news-sidebar-container li {
+    list-style: none;
+}
+
+.news-sidebar-container ul {
+    display: flex;
+    flex-direction: column;
+    padding: 18px 20px 18px 50px;
+    justify-content: space-between;
+    height: calc(100% - 50px);
+}
+
+.main-lower-section {
+    background-color: white;
+    margin-top: 40px;
+}
+
+.main-lower-section h3 {
+    background-color: #5a9cae;
+    padding: 12px 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.lower-text-section {
+	padding: 20px;
+}
+
+.lower-text-section h4 {
+	font-size: 17px;
+	margin-bottom: 14px;
+}
+
+.lower-text-section p {
+	font-size: 15px;
+}
+
+.lower-text-section p:nth-child(2) {
+	margin-bottom: 14px;
+}
+
+.ad-section img {
+	margin: 0 auto;
+	display: block;
+	margin-top: 40px;
+}
+
+footer {
+	background-color: #1b1b1b;
+}
+
+.footer-inner-section {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.footer-inner-section p {
+	color: white;
+	line-height: 1.5;
+	font-size: 13px;
+}
