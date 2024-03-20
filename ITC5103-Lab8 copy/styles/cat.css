@@ -1,0 +1,64 @@
+.product-sidebar {
+	width: 180px;
+	background-color: #F5DEB3;
+    padding: 0 0 20px 20px;
+}
+main {
+	padding-right: 0;
+}
+.product-section {
+	display: flex;
+	margin-top: 30px;
+	gap: 20px;
+}
+.product-section p {
+	font-size: 13px;
+	width: 200px;
+	margin-right: 33px;
+}
+.product-section img {
+	width: 190px;
+    position: relative;
+    animation: .5s ease-in-out 0s 6 alternate imagemove;
+}
+figure {
+	margin-left: 0;
+	margin-bottom: 4px;
+}
+figure img {
+	width: 65px;
+    transition: all 200ms linear;
+}
+figure img:hover {
+	width: 125px;
+}
+aside > a {
+	font-size: 13px;
+    color: black;
+}
+aside > a:hover{
+    color: green;
+}
+aside > a:visited{
+    color: black;
+}
+.main-page-section.cat-product-page {
+	margin-top: 35px;
+}
+.product-sidebar h6 {
+	font-size: 13px;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+
+@keyframes imagemove{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 10px;
+    }
+    /* 100%{
+        top: 0;
+    } */
+}
