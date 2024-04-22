@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Exercise</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-container" style="border: 1px solid red; width: 500px;">
+        <h3>Country:</h3>
+        <p class="country">Canada</p>
+        <h3>Capital:</h3>
+        <p class="capital">Ottawa</p>
+        <button class="hide-capital">Hide capital Name</button><br><br>
+        <button class="show-capital">Show capital Name</button><br><br>
+        <button class="toggle-capital">Toggle</button>
+
+        <p class="hover-yellow" style="font-weight: bold;">Hover on this paragraph for Yellow</p>
+        <p class="click-green" style="font-weight: bold;">Click on this paragraph for Green</p>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $(".hide-capital").click(function() {
+                $(".capital").hide();
+            });
+            $(".show-capital").click(function() {
+                $(".capital").show();
+            });
+            $(".toggle-capital").click(function() {
+                $(".capital").toggle();
+            });
+            $(".hover-yellow").mouseenter(function() {
+                $(".main-container").css("background-color", "yellow");
+            });
+            $(".hover-yellow").mouseout(function() {
+                $(".main-container").css("background-color", "white");
+            });
+            $(".click-green").click(function() {
+                $(".main-container").css("background-color", "green");
+            })
+        })
+    </script>
+</body>
+</html>

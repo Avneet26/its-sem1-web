@@ -1,28 +1,55 @@
 .main-page-section.special-fx-page {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 .special-fx-page h5 {
-	font-size: 24px;
+    font-size: 24px;
 }
 .special-prodcut-list {
-	padding-left: 0;
+    padding-left: 0;
 }
 .special-prodcut-list li {
-	list-style: none;
-	margin-bottom: 20px;
+    list-style: none;
+    margin-bottom: 20px;
 }
-.special-prodcut-list li p{
+.special-prodcut-list li p {
     margin: 3px 0;
     font-size: 16px;
 }
 .special-list-item a {
-	font-weight: bold;
-	color: orange;
-	font-size: 18px;
+    font-weight: bold;
+    color: orange;
+    font-size: 18px;
 }
 .special-list-item a:hover {
-	color: green;
+    color: green;
 }
 .special-list-item span {
-	font-weight: bold;
+    font-weight: bold;
+}
+#mobile_menu{
+	display: none;
+}
+.slicknav_menu {
+    width: 100%;
+}
+.slicknav_nav {
+	flex-direction: column;
+	align-items: flex-end;
+	width: auto;
+}
+@media (max-width: 767px){
+	#mobile_menu{
+		display: block;
+	}
+	#nav_menu{
+		display: none;
+	}
+	main {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.sidenav li a {
+		width: 260px;
+		justify-content: center;
+	}
 }

@@ -6,6 +6,7 @@
 	<title>Halloween Store</title>
     <link rel="icon" type="image/x-icon" href="./images/pumpkin.gif">
 	<link rel="stylesheet" type="text/css" href="./styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.0/slicknav.min.css" integrity="sha512-MVXhwgzug/vd2/6CjhEI2KY7Hl60+LM3alGwzQAnlOifbQqEbiUb8nfQHonBMDJUT8J/AT6xoWv07G96TL7fFQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/category.css">
 </head>
@@ -17,12 +18,13 @@
 			<h3>For the little Goblin in all of us!</h3>
 		</div>
 	</header>
-	<nav>
-		<a href="./index.html">Home</a>
-		<a href="./product.html">Product List</a>
-		<a href="personal/index.html">Personal</a>
-		<a href="#">Decorating Items</a>
-		<a href="./email.html">Join Email</a>
+    <nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+		<li><a href="./index.html">Home</a></li>
+		<li><a href="./product.html">Product List</a></li>
+		<li><a href="personal/index.html">Personal</a></li>
+		<li><a href="decorations/decorations.html">Decorating Items</a></li>
+		<li><a href="./email.html">Join Email</a></li>
 	</nav>
 	<main>
 		<aside class="sidenav">
@@ -72,5 +74,13 @@
 	<footer>
 		<p>&copy; 2018 Ben Murach</p>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.0/jquery.slicknav.js" integrity="sha512-DPQx/CONfKUHRqCgc6mz0/Jc+dBmBpmbDdSUY/IF2TLmIZ8l12ImNkaaL1ApppB6ZgtiflZWw+rVw2y1XbIoRw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){ 
+            console.log("Hello");
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+        }); 
+ </script>
 </body>
 </html>
